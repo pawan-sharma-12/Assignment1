@@ -1,0 +1,65 @@
+.single_card{
+    border: 2px solid red;
+
+}
+
+
+.note{
+    display: flex;
+    flex-direction: column;
+    /* border :2px solid red; */
+    width: 200px;
+    box-shadow: 0px 1px 7px rgb(128,128,128);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 0.7rem;
+}
+
+.note h1{
+   
+    margin:  0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    line-height: 1rem;
+    font-size: 2rem;
+}
+.note p{
+  
+    margin-top: 0px;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+.main_note{
+    
+    display: flex;
+    flex-direction: row;
+        position :relative;
+        width: 80%;
+        margin: 20px auto ;
+        height: 15vh;
+        background : "white";
+        box-shadow: 0px 1px 7px rgb(128,128,128);
+
+       /* border: 2px solid green; */
+        border-radius : 7px;
+        overflow: auto;
+   
+}
+.main_note  p{
+    line-height: 20vh;
+}
+.months_div h6{
+   
+    /* padding : 8px; */
+    width: 20vw;
+    text-align: center;
+    margin: 0px;
+    box-shadow: 0px 1px 7px rgb(128,128,128);
+    height: 60px;
+    line-height: 40px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 0.4rem;
+
+}
